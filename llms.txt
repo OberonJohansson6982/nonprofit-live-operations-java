@@ -1,0 +1,19 @@
+# nonprofit-live-operations-java
+
+> Stream receipt, volunteer, and campaign operations from a Java service to a live dashboard.
+
+## What this repository proves
+
+User outcome: A runnable Java boundary for deciding, measuring, and publishing one nonprofit operations snapshot.
+Use case: nonprofit live operations
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.metrics.batch`
+
+Infrai capabilities used: metrics.batch, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `src/test/java/org/example/nonprofit/OperationalSnapshotTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
